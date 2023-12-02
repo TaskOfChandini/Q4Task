@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Website</title>
+</head>
+<body>
+  <header>
+    <h1>Your Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tasks.html">Tasks</a>
+      <a href="signup.html">Signup</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+  
+  <!-- Content for the login page -->
+  <section id="login">
+    <h2>Login to Your Account</h2>
+    <!-- Add login form -->
+    <form id="loginForm">
+      <label for="loginUsername">Username:</label>
+      <input type="text" id="loginUsername" name="loginUsername" required>
+
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="loginPassword" required>
+
+      <button type="button" onclick="performLogin()">Login</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+  <script>
+    function performLogin() {
+      const username = document.getElementById('loginUsername').value;
+      const password = document.getElementById('loginPassword').value;
+      login(username, password);
+    }
+  </script>
+</body>
+</html>
