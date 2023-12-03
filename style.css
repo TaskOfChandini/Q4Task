@@ -38,6 +38,16 @@ section {
 h1, h2, h3 {
   color: #333;
 }
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ol, ul {
+  margin-bottom: 1.5rem;
+}
+
 
 footer {
   background-color: #333;
