@@ -71,6 +71,11 @@ p {
   border-radius: 5px;
 }
 
+header h1 {
+  color: white;
+}
+
+
 footer {
   background-color: #333;
   color: white;
