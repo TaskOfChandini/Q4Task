@@ -17,3 +17,4 @@ function signup(username, password) {
     console.error('Username already taken. Please choose another.');
   }
 }
+document.getElementById('task1').style.display = 'block';
